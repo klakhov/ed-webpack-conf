@@ -2,7 +2,8 @@ import FormValidator from "./classes/FormValidator";
 import {getter} from './utils/getter';
 import {setter} from "./utils/setter";
 import ErrorBundler from "./classes/ErrorBundler";
-
+import './app.sass';
+import './app.css';
 export const run = ()=>{
     let button = document.getElementById('summarise');
     button.addEventListener('click',()=>{
