@@ -13,7 +13,7 @@ export const run = ()=>{
             setter(data.firstField+data.secondField);
         }else{
             let errorBundler = new ErrorBundler(validator);
-            errorBundler.parseError();
+            errorBundler.parseError();e
         }
     });
 }
